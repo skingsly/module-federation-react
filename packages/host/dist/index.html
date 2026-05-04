@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Host</title>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "main-entry": "/assets/main-l3cuMb9D.js"
+        }
+      }
+    </script>
+    <!-- <script type="module" crossorigin src="/assets/main-l3cuMb9D.js"></script> -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      System.import("main-entry");
+    </script>
+  </body>
+</html>
