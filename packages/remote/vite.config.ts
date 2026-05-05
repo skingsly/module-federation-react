@@ -52,6 +52,10 @@ export default defineConfig(({ mode }) => {
             requiredVersion: dependencies["react-dom"],
             singleton: true,
           },
+          "react-router": {
+          singleton: true,
+          requiredVersion: "^7.14.2",
+        },
         },
       }),
       react(),

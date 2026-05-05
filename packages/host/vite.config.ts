@@ -17,11 +17,11 @@ export default defineConfig(() => ({
       dev: { remoteHmr: false },
       name: "host",
       remotes: {
-        user: {
+        remote: {
           type: "module",
-          name: "user",
+          name: "remote",
           entry: "http://localhost:4174/remoteEntry.js",
-          entryGlobalName: "user",
+          entryGlobalName: "remote",
           shareScope: "default",
         },
       },
@@ -32,11 +32,11 @@ export default defineConfig(() => ({
           singleton: true,
         },
         react: {
-          requiredVersion: "^19.2.4",
+          requiredVersion: "^19.2.5",
           singleton: true,
         },
         "react-dom": {
-          requiredVersion: "^19.2.4",
+          requiredVersion: "^19.2.5",
           singleton: true,
         },
         "react-router": {

@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "@mf-vite-example/shared-ui": "file:../shared-ui",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router": "^7.14.2"
   },
   "devDependencies": {
     "@module-federation/vite": "1.15.0",
@@ -18,5 +19,6 @@
     "@vitejs/plugin-react": "5.1.4",
     "typescript": "5.9.3",
     "vite": "7.3.2"
-  }
+  },
+  "packageManager": "yarn@4.13.0"
 }

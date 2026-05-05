@@ -6,7 +6,7 @@ import Counter from "./components/Counter";
 
 const Remote = lazy(
   // @ts-ignore
-  async () => import("user/remote-app")
+  async () => import("remote/remote-app")
 );
 
 export default () => {

@@ -1,4 +1,5 @@
 {
   "name": "react",
-  "description": "Module Federation Vite + React is now possible"
+  "description": "Module Federation Vite + React is now possible",
+  "packageManager": "yarn@4.13.0"
 }
